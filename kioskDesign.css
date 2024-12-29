@@ -1,0 +1,275 @@
+
+header {
+    padding: 20px 0;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.social-media {
+    margin-top: 10px;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-image: url('images/header-bg.png');
+    background-size: cover;
+    background-position: center;
+}
+h1 {
+    color: white;
+    font-size: 50px;
+}
+
+.head h2, .head h3 {
+    color: white;
+    font-weight: lighter;
+}
+
+.head {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.bottom {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.contain-map {
+    position: relative;
+    text-align: center;
+}
+
+.pin {
+    position: absolute;
+    width: 25px;
+}
+
+.info-box {
+    position: absolute; 
+    background: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 300px; 
+    overflow: auto; 
+    max-height: 400px; 
+    text-align: center; 
+}
+
+.info-box img {
+    max-width: 300px; 
+    display: block;
+    margin: 0 auto 10px; 
+}
+.info-box h2 {
+    margin: 0 0 10px;
+    font-size: 20px; 
+}
+
+.info-box p {
+    margin: 0;
+    font-size: 16px; 
+}
+area {
+    cursor: pointer;
+}
+
+
+
+/* for the Pin Location */
+#pin-ampitheater {
+    top: 756px;
+    left: 955px;
+}
+
+#pin-apolinario-mabini-shrine {
+    top: 735px;
+    left: 1510px;
+}
+
+#pin-charlie-del-rosario-hall {
+    top: 510px;
+    left: 560px;
+}
+
+#pin-dome {
+    top: 1010px;
+    left: 959px;
+}
+
+#pin-east-wing {
+    top: 1209px;
+    left: 959px;
+}
+
+#pin-gymnasium {
+    top: 160px;
+    left: 1740px;
+}
+
+#pin-interfaith-chapel {
+    top: 1184px;
+    left: 1264px;
+}
+
+#pin-lagoon {
+    top: 577px;
+    left: 988px;
+}
+
+#pin-linear-park {
+    top: 813px;
+    left: 445px;
+}
+
+#pin-ninoy-aquino-library-and-learning-resources-center {
+    top: 233px;
+    left: 886px;
+}
+
+#pin-obelisk {
+    top: 542px;
+    left: 1401px;
+}
+
+#pin-oval {
+    top: 1057px;
+    left: 1743px;
+}
+
+#pin-pasig-river {
+    top: 784px;
+    left: 115px;
+}
+
+/* #pin-pylon {
+    top: 536px;
+    left: 2138px;
+} */
+
+#pin-physical-education-building{
+	top: 170px;
+	left: 1256px;
+}
+
+
+#pin-sampaguita-canteen {
+    top: 715px;
+    left: 525px;
+}
+
+#pin-south-wing {
+    top: 1145px;
+    left: 700px;
+}
+
+#pin-swimming-pool {
+    top: 168px;
+    left: 1397px;
+}
+
+#pin-tahanan-ng-alumni {
+    top: 118px;
+    left: 1308px;
+}
+
+#pin-tennis-court {
+    top: 402px;
+    left: 1768px;
+}
+
+#pin-west-wing {
+    top: 898px;
+    left: 784px;
+}
+
+
+
+/* nvigation bar */
+.hamburger-container {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: maroon;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hamburger-menu {
+    font-size: 30px;
+    cursor: pointer;
+    color: white;
+}
+
+.menu {
+    display: none;
+    background: white;
+    position: absolute;
+    top: 60px;
+    right: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu ul li {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.menu ul li:hover {
+    background: #f0f0f0;
+}
+
+.info-box {
+    position: absolute; 
+    background: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 300px; 
+    overflow: auto; 
+    max-height: 400px; 
+    text-align: center; 
+}
+
+.info-box img {
+    max-width: 300px; 
+    display: block;
+    margin: 0 auto 10px; 
+}
+
+.info-box h2 {
+    margin: 0 0 10px;
+    font-size: 20px; 
+}
+
+.info-box p {
+    margin: 0;
+    font-size: 16px; 
+}
